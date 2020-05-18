@@ -1,0 +1,86 @@
+@media only screen and (max-width: 400px) {
+    body {
+        overflow: visible;
+    }
+    .container {
+        flex-direction: column-reverse;
+        width: 105%;
+        margin-left: 0;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .nav-inv {
+        display: block;
+        padding: 10px 5px;
+        margin-bottom: 10px;
+    }
+    .bigger-text,
+    .text,
+    .email-error {
+        text-align: center;
+    }
+    .email input {
+        width: 190%
+    }
+    .icon-arrow {
+        margin-left: 300px;
+    }
+    .icon-error {
+        margin-left: 24%;
+    }
+    .girl-desktop img {
+        display: none;
+    }
+    .girl-mobile img {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width:700px) {
+    body {
+        overflow: visible;
+    }
+    .container {
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav-bar {
+        display: none;
+    }
+    .nav-inv {
+        display: block;
+        padding: 10px 5px;
+        margin-bottom: 10px;
+    }
+    .bigger-text,
+    .text,
+    .email-error {
+        text-align: center;
+        padding-left: 10px;
+    }
+    .email input {
+        width: 190%
+    }
+    .icon-arrow {
+        margin-left: 300px;
+    }
+    .icon-error {
+        margin-left: 22%;
+    }
+    .girl-desktop img {
+        display: none;
+    }
+    .girl-mobile img {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    /* body {
+        background-color: red;
+    } */
+}

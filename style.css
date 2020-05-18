@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.nav-inv {
+    display: none;
+}
+
+.container {
+    background-color: white;
+    margin: 0% 10%;
+    display: flex;
+    background-image: url(images/bg-pattern-desktop.svg);
+}
+
+.content {
+    display: flex;
+}
+
+.right-side {
+    margin-top: 60px;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.lower-div {
+    margin-top: 50px;
+    /* margin will be added */
+}
+
+.bigger-text {
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+.we {
+    color: rgb(235, 64, 64);
+}
+
+.text {
+    margin-right: 50px;
+    color: rgb(235, 64, 64);
+}
+
+.email {
+    margin-top: 20px;
+    border-radius: 0.4rem;
+}
+
+.email-error {
+    display: flex;
+}
+
+.email input {
+    border-radius: 1.8rem;
+    margin-top: 20px;
+    padding: 10px 0 10px 5px;
+    width: 200%;
+}
+
+
+/* .icon-arrow {
+    background-color: rgb(235, 64, 64);
+    border-radius: 1.9rem;
+    position: absolute;
+    cursor: pointer;
+    margin: 40px 0px 50px 330px;
+    padding: 10px 30px 10px 30px;
+} */
+
+.img {
+    background-color: rgb(235, 64, 64);
+    border-radius: 1.9rem;
+    position: absolute;
+    cursor: pointer;
+    margin: 40px 0px 50px 330px;
+    padding: 10px 30px 10px 30px;
+}
+
+#btn_Validate_email {
+    background-image: url(images/icon-arrow.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.icon-error {
+    margin-left: 9%;
+    margin-top: 8px;
+    position: absolute;
+    display: none;
+}
+
+.error-message {
+    padding: 3px 0 0 10px;
+    color: red;
+    position: absolute;
+    display: none;
+}
+
+.girl-desktop img {
+    margin-bottom: 200px;
+}
+
+.girl-mobile img {
+    display: none;
+}
